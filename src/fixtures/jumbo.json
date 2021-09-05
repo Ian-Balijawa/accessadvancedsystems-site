@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "title": "Lorem ipsum dolor sit amet",
+    "subTitle": "Lorem ipsum dolor sit amet, Lorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametconsectetur adipisicing elit excepturi.Lorem ipsum dolor sit amet, consectetur adipisicing elit excepturi.",
+    "image": "/images/misc/home-tv.jpg",
+    "direction": "row"
+  },
+  {
+    "id": 2,
+    "title": "Developed Management Systems",
+    "subTitle": "Nursery Schools Management Systems \n Primary Schools Management Systems \n Nursery & Primary Management Systems \n Secondary Schools Management Systems \n Accounting Management System \n Library Management Systems \n Tertiary Schools Management Systems \n Health centres Management Systems \n Clinics Management Systems \n Pharmacy Management System \n Hospitals management Systems \n Retail business Management Systems \n Whole Sale business Management Systems \n Hard ware Business Management Systems",
+    "image": "/images/misc/home-mobile.jpg",
+    "alt": "Watch on mobile",
+    "direction": "row-reverse"
+  },
+  {
+    "id": 3,
+    "title": "Lorem ipsum dolor sit amet.",
+    "subTitle": "Lorem ipsum dolor sit Lorem ipsum dolor sit ametLorem ipsum dolor sit ametametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit amet",
+    "image": "/images/misc/home-imac.jpg",
+    "direction": "row"
+  }
+]
