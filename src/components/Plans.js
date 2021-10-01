@@ -1,6 +1,6 @@
 import React from 'react';
 import card from '../Fixtures/card.json';
-import { Card } from './Card';
+import Card from './Card';
 
 export const Plans = () => {
   return (
@@ -23,3 +23,5 @@ export const Plans = () => {
     </section>
   );
 };
+
+export default Plans;

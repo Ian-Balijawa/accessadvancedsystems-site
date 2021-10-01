@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const Hero = () => {
+const Hero = () => {
   return (
     <section className="block block--dark block--skewed-left hero">
       <div className="container grid grid--1x2">
@@ -30,3 +30,4 @@ export const Hero = () => {
     </section>
   );
 };
+export default Hero;

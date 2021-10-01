@@ -1,7 +1,7 @@
 import React from 'react';
-import { OptForm } from './OptForm';
+import OptForm from './OptForm';
 
-export const FeatureBlockHeader = () => {
+const BlockHeader = () => {
   return (
     <section data-aos="fade-up" className="block container block-domain">
       <header className="block__header">
@@ -25,3 +25,4 @@ export const FeatureBlockHeader = () => {
     </section>
   );
 };
+export default BlockHeader;

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-export const Header = () => {
+const Header = () => {
   const [navClicked, setNavClicked] = useState(false);
 
   return (
@@ -23,19 +23,21 @@ export const Header = () => {
         </svg>
         <ul className="list nav__list collapsible__content">
           <li className="nav__item">
-            <a href="/#">Hosting</a>
+            <a href="/#">Lorem</a>
           </li>
           <li className="nav__item">
-            <a href="/#">VPS</a>
+            <a href="/#">Lorem</a>
           </li>
           <li className="nav__item">
-            <a href="/#">Domain</a>
+            <a href="/#">Lorem</a>
           </li>
           <li className="nav__item">
-            <a href="/#">Pricing</a>
+            <a href="/#">Lorem</a>
           </li>
         </ul>
       </nav>
     </header>
   );
 };
+
+export default Header;
