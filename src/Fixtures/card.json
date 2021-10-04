@@ -2,7 +2,6 @@
   {
     "id": 1,
     "planClass": "plan",
-    "cardClass": "card card--secondary",
     "name": "Starter",
     "price": 100,
     "discount": 10,
@@ -17,7 +16,6 @@
   },
   {
     "id": 2,
-    "planClass": "plan plan--popular",
     "cardClass": "card card--primary",
     "name": "Entry",
     "price": 300,
@@ -33,7 +31,6 @@
   },
   {
     "id": 3,
-    "planClass": "plan",
     "cardClass": "card card--secondary",
     "price": 400,
     "name": "Premium",
