@@ -204,7 +204,7 @@ body {
   color: #fff;
   text-transform: capitalize;
   padding: 12px 25px;
-  border-radius: 23px;
+  border-radius: 5px;
   letter-spacing: 0.25px;
 }
 
@@ -216,7 +216,7 @@ body {
   color: #fff;
   text-transform: capitalize;
   padding: 12px 25px;
-  border-radius: 23px;
+  border-radius: 5px;
   letter-spacing: 0.25px;
 }
 
@@ -228,7 +228,7 @@ body {
   color: #fe3f40;
   text-transform: capitalize;
   padding: 12px 25px;
-  border-radius: 23px;
+  border-radius: 5px;
   letter-spacing: 0.25px;
 }
 
@@ -797,7 +797,7 @@ preloader
     top: 12px;
     left: 15px;
     background: #fe3f40;
-    border-radius: 50%;
+    border-radius:50%;
     -webkit-transform: translateX(0);
     transform: translateX(0);
     -webkit-animation: dot 2.8s infinite;
@@ -820,7 +820,7 @@ preloader
     height: 16px;
     margin-left: 16px;
     background: #fe3f40;
-    border-radius: 50%;
+    border-radius:50%;
 }
 
 
@@ -911,20 +911,23 @@ Banner Style
   color: #fe3f40;
   text-transform: capitalize;
   padding: 12px 25px;
-  border-radius: 23px;
+  border-radius: 5px;
   letter-spacing: 0.25px;
   outline: none;
+  margin-top: .4rem;
   border: none;
 }
 
 .main-banner .left-content form input {
   width: 470px;
   height: 66px;
+  position: absolute;
   background-color: #03a4ed;
-  border-radius: 33px;
+  border-radius: 5px;
   border: none;
   outline: none;
-  padding: 0px 25px;
+  right: .4rem;
+  padding: 0px 10px;
   color: #fff;
   letter-spacing: 0.25px;
   font-size: 15px;
@@ -1044,7 +1047,7 @@ Services Style
 .our-services .progress-skill-bar .full-bar {
   width: 100%;
   height: 6px;
-  border-radius: 3px;
+  border-radius:5px;
   background-color: #f7eff1;
   position: relative;
   z-index: 1;
@@ -1054,7 +1057,7 @@ Services Style
   background: rgb(255,77,30);
   background: linear-gradient(105deg, rgba(255,77,30,1) 0%, rgba(255,44,109,1) 100%);
   height: 6px;
-  border-radius: 3px;
+  border-radius:5px;
   margin-bottom: -6px;
   position: relative;
   z-index: 2;
@@ -1110,7 +1113,7 @@ Portfolio
   background: rgb(255,77,30);
   background: linear-gradient(105deg, rgba(255,77,30,1) 0%, rgba(255,44,109,1) 100%);
   padding: 30px;
-  border-radius: 20px;
+  border-radius: 5px;
   text-align: center;
   opacity: 0;
   top: 0;
@@ -1152,7 +1155,7 @@ Portfolio
   background-color: #fff;
   text-align: center;
   padding: 50px;
-  border-radius: 20px;
+  border-radius: 5px;
   box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
   transition: all 0.5s;
 }
@@ -1192,7 +1195,7 @@ Blog
 }
 
 .our-blog .left-image img {
-  border-radius: 20px;
+  border-radius: 5px;
   box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
 }
 
@@ -1203,7 +1206,7 @@ Blog
 .our-blog .left-image .info .inner-content {
   background-color: #fff;
   box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
-  border-radius: 20px;
+  border-radius: 5px;
   margin-right: 75px;
   position: absolute;
   margin-top: -100px;
@@ -1277,7 +1280,7 @@ Blog
 
 .our-blog .right-list .right-image img {
   width: 250px;
-  border-radius: 20px;
+  border-radius: 5px;
 }
 
 
@@ -1323,7 +1326,7 @@ contact
   text-align: center;
   line-height: 46px;
   background-color: #fff;
-  border-radius: 50%;
+  border-radius:50%;
   color: #ff3b2c;
   font-size: 22px;
   margin-left: 30px;
@@ -1351,13 +1354,13 @@ form#contact {
   position: relative;
   background-color: #fff;
   padding: 60px 30px;
-  border-radius: 20px;
+  border-radius: 5px;
 }
 
 form#contact input {
   width: 100%;
   height: 46px;
-  border-radius: 33px;
+  border-radius: 5px;
   background-color: #d1f3ff;
   border: none;
   outline: none;
@@ -1379,7 +1382,7 @@ form#contact textarea {
   max-height: 180px;
   min-height: 140px;
   height: 140px;
-  border-radius: 20px;
+  border-radius: 5px;
   background-color: #d1f3ff;
   border: none;
   outline: none;
@@ -1402,7 +1405,7 @@ form#contact button {
   color: #fff;
   text-transform: capitalize;
   padding: 12px 25px;
-  border-radius: 23px;
+  border-radius: 5px;
   letter-spacing: 0.25px;
   border: none;
   outline: none;
@@ -1479,7 +1482,7 @@ responsive
     background: rgb(255,77,30);
     background: linear-gradient(105deg, rgba(255,77,30,1) 0%, rgba(255,44,109,1) 100%);
     padding: 30px;
-    border-radius: 20px;
+    border-radius: 5px;
     display: inline-block;
   }
   .about-us .services .item .right-text {

@@ -20,10 +20,10 @@ function Hero() {
                   data-wow-duration="1s"
                   data-wow-delay="1s"
                 >
-                  <h6>Welcome to Access Advanced Systems</h6>
+                  <h1>Welcome to Access Advanced Systems</h1>
                   <h2>
                     We Make <em>Business Management Systems</em> &amp;{' '}
-                    <span>SEO</span> Marketing
+                    <span>WEB</span> Design
                   </h2>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
