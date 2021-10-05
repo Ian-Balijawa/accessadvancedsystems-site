@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function PortFolio() {
   return (
@@ -20,7 +21,7 @@ function PortFolio() {
         </div>
         <div className="row">
           <div className="col-lg-3 col-sm-6">
-            <a href="#">
+            <Link to="#">
               <div
                 className="item wow bounceInUp"
                 data-wow-duration="1s"
@@ -34,10 +35,10 @@ function PortFolio() {
                   <img src="assets/images/portfolio-image.png" alt="" />
                 </div>
               </div>
-            </a>
+            </Link>
           </div>
           <div className="col-lg-3 col-sm-6">
-            <a href="#">
+            <Link to="#">
               <div
                 className="item wow bounceInUp"
                 data-wow-duration="1s"
@@ -51,10 +52,10 @@ function PortFolio() {
                   <img src="assets/images/portfolio-image.png" alt="" />
                 </div>
               </div>
-            </a>
+            </Link>
           </div>
           <div className="col-lg-3 col-sm-6">
-            <a href="#">
+            <Link to="#">
               <div
                 className="item wow bounceInUp"
                 data-wow-duration="1s"
@@ -68,10 +69,10 @@ function PortFolio() {
                   <img src="assets/images/portfolio-image.png" alt="" />
                 </div>
               </div>
-            </a>
+            </Link>
           </div>
           <div className="col-lg-3 col-sm-6">
-            <a href="#">
+            <Link to="#">
               <div
                 className="item wow bounceInUp"
                 data-wow-duration="1s"
@@ -85,7 +86,7 @@ function PortFolio() {
                   <img src="assets/images/portfolio-image.png" alt="" />
                 </div>
               </div>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

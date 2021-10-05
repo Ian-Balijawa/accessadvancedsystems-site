@@ -44,9 +44,9 @@ function Header(props) {
                   </div>
                 </li>
               </ul>
-              <a className="menu-trigger">
+              <Link className="menu-trigger">
                 <span>Menu</span>
-              </a>
+              </Link>
             </nav>
           </div>
         </div>

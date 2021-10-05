@@ -31,7 +31,7 @@ function ContactForm() {
               type="surname"
               name="surname"
               id="surname"
-              name={surname}
+              value={surname}
               onChange={({ target }) => {
                 setSurname(target.value);
               }}
@@ -47,7 +47,7 @@ function ContactForm() {
               type="text"
               name="email"
               id="email"
-              name={emailAddress}
+              value={emailAddress}
               onChange={({ target }) => {
                 setEmailAddress(target.value);
               }}
@@ -62,7 +62,7 @@ function ContactForm() {
             <textarea
               name="message"
               type="text"
-              name={message}
+              value={message}
               onChange={({ target }) => setMessage(target.value)}
               className="form-control"
               id="message"

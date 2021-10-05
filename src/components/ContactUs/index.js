@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { ContactForm } from '..';
 
 function ContactUs() {
@@ -21,7 +22,8 @@ function ContactUs() {
                 <h4>
                   For any enquiry, Call Us:{' '}
                   <span>
-                    <i className="fa fa-phone"></i> <a href="#">010-020-0340</a>
+                    <i className="fa fa-phone"></i>{' '}
+                    <Link to="#">010-020-0340</Link>
                   </span>
                 </h4>
               </div>
