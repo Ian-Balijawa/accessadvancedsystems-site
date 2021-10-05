@@ -1,3 +1,7 @@
+@import url("./styles//card.scss");
+@import url("./styles//Header.scss");
+@import url("./styles//Hero.scss");
+@import url("./styles//Testimonial.scss");
 *, *::before, *::after {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -9,6 +13,14 @@
 
 ::selection {
   color: crimson;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+img {
+  width: 100%;
 }
 
 body {

@@ -1,0 +1,144 @@
+$colors:(primary:#2584ff,
+    secondary:#00d9ff,
+    accent:#1b0760,
+    body:#918ca4,
+    body-darker:darken(#918ca4, 40%),
+    border:#ccc,
+    border-radius:5px
+    );
+
+@function color($key:name) {
+    @return map-get($colors, name);
+}
+
+.header-menu {
+    width: 100%;
+    position: fixed;
+    background-color: color(primary);
+    box-shadow: 2px 2px rgba($color: #000000, $alpha: .1);
+    background: rgb(175, 170, 170);
+    padding: 0 1rem;
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+
+        }
+        li{
+            list-style: none;
+            margin: auto 1rem;
+        }
+
+        .menu-items {
+            background-color: color(accent);
+            margin-right: 1rem;
+
+            li {
+                margin-right: 2rem;
+            }
+        }
+
+        span {
+        }
+    }
+}
+
+/* Collapsibles */
+.collapsible__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.collapsible__heading {
+  margin-top: 0;
+  font-size: 3rem;
+}
+
+.collapsible__chevron {
+  transform: rotate(-90deg);
+  transition: transform 0.3s;
+}
+
+.collapsible__content {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.collapsible--expanded .collapsible__chevron {
+  transform: rotate(0);
+}
+
+.collapsible--expanded .collapsible__content {
+  max-height: 100vh;
+  opacity: 1;
+}
+
+
+/* Navigation Bar */
+.nav {
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 1rem;
+    align-items: center;
+}
+
+.nav__list {
+    width: 100%;
+    margin: 0;
+}
+
+.nav__item {
+    padding: 0.5rem 2rem;
+    border-bottom: 1px solid #222;
+}
+
+.nav__item>a {
+    color: #d2d0db;
+    transition: color 0.3s;
+}
+
+.nav__item>a:hover {
+    color: #fff;
+}
+
+.nav__toggler {
+    opacity: 0.5;
+    transition: box-shadow 0.15s;
+    cursor: pointer;
+}
+
+.nav.collapsible--expanded .nav__toggler {
+    opacity: 1;
+    box-shadow: 0 0 0 3px #666;
+    border-radius: 5px;
+}
+
+.nav__brand {
+    transform: translateY(5px);
+}
+
+@media screen and (min-width: 768px) {
+    .nav__toggler {
+        display: none;
+    }
+
+    .nav__list {
+        width: auto;
+        display: flex;
+        font-size: 1.6rem;
+        max-height: 100%;
+        opacity: 1;
+    }
+
+    .nav__item {
+        border: 0;
+    }
+}
