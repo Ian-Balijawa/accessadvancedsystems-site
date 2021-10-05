@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import OptForm from '../OptForm';
 
 function Hero() {
@@ -27,14 +28,13 @@ function Hero() {
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Sint placeat odit consectetur ipsa porro doloremque.{' '}
-                    <a
+                    <Link
                       rel="nofollow"
-                      href="https://templatemo.com/page/1"
+                      to="https://templatemo.com/page/1"
                       target="_parent"
                     >
                       Access
-                    </a>
-                    .
+                    </Link>
                   </p>
                   <OptForm />
                 </div>

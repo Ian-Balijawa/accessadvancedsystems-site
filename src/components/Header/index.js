@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Header(props) {
   return (
@@ -11,35 +12,35 @@ function Header(props) {
         <div className="row">
           <div className="col-12">
             <nav className="main-nav">
-              <a href="index.html" className="logo">
+              <Link to="index.html" className="logo">
                 <h4>
                   Access<span>Advanced</span>
                 </h4>
-              </a>
+              </Link>
               <ul className="nav">
                 <li className="scroll-to-section">
-                  <a href="#top" className="active">
+                  <Link to="#top" className="active">
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li className="scroll-to-section">
-                  <a href="#about">About Us</a>
+                  <Link to="#about">About Us</Link>
                 </li>
                 <li className="scroll-to-section">
-                  <a href="#services">Services</a>
+                  <Link to="#services">Services</Link>
                 </li>
                 <li className="scroll-to-section">
-                  <a href="#portfolio">Showcase</a>
+                  <Link to="#portfolio">Showcase</Link>
                 </li>
                 <li className="scroll-to-section">
-                  <a href="#blog">Blog</a>
+                  <Link to="#blog">Blog</Link>
                 </li>
                 <li className="scroll-to-section">
-                  <a href="#contact">Message Us</a>
+                  <Link to="#contact">Message Us</Link>
                 </li>
                 <li className="scroll-to-section">
                   <div className="main-red-button">
-                    <a href="#contact">Contact Now</a>
+                    <Link to="#contact">Contact Now</Link>
                   </div>
                 </li>
               </ul>
