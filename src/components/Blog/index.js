@@ -45,13 +45,14 @@ function Blog() {
                 <div className="inner-content">
                   <ul>
                     <li>
-                      <i className="fa fa-calendar"></i> 24 Mar 2021
+                      <i className="fa fa-calendar"></i>{' '}
+                      {new Date().toUTCString()}
                     </li>
                     <li>
-                      <i className="fa fa-users"></i> TemplateMo
+                      <i className="fa fa-users"></i> accessadvanced
                     </li>
                     <li>
-                      <i className="fa fa-folder"></i> Branding
+                      <i className="fa fa-folder"></i> Systems
                     </li>
                   </ul>
                   <Link to="#">

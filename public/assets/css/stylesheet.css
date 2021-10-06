@@ -293,6 +293,10 @@ header
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
+.header-area .main-nav .logo >img {
+  width: 8rem;
+  height: 6rem;
+}
 
 .header-area .main-nav .logo h4 {
     font-size: 24px;

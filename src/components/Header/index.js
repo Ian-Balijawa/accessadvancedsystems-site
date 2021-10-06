@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
 function Header(props) {
   return (
     <header
@@ -13,9 +12,7 @@ function Header(props) {
           <div className="col-12">
             <nav className="main-nav">
               <Link to="index.html" className="logo">
-                <h4>
-                  Access<span>Advanced</span>
-                </h4>
+                <img src="/assets/images/logo.png" alt="logo" srcset="" />
               </Link>
               <ul className="nav">
                 <li className="scroll-to-section">
