@@ -62,9 +62,9 @@ function Blog() {
                     Lorem ipsum dolor sit amet, consectetur and sed doer ket
                     eismod tempor incididunt ut labore et dolore magna...
                   </p>
-                  <div className="main-blue-button">
+                  {/* <div className="main-blue-button">
                     <Link to="#">Discover More</Link>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

@@ -21,22 +21,22 @@ function Services() {
           >
             <div className="section-heading">
               <h2>
-                Grow your website with our <em>SEO</em> service &amp;{' '}
-                <span>Project</span> Ideas
+                Grow your Buisness with our <em>Business Management</em>{' '}
+                software
               </h2>
               <p>
-                Space Dynamic HTML5 template is free to use for your website
-                projects. However, you are not permitted to redistribute the
-                template ZIP file on any CSS template collection websites.
-                Please contact us for more information. Thank you for your kind
-                cooperation.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
+                doloribus recusandae modi excepturi voluptas at placeat debitis?
+                Dignissimos ipsum odit ut obcaecati officiis illum quam
+                perspiciatis at nam vitae? Aliquid deleniti facilis velit
+                mollitia quibusdam quasi, labore, autem officia maiores, eveniet
+                perferendis sed illum quae dolorem. Id, maiores ratione. Sequi?
               </p>
             </div>
             <div className="row">
               <div className="col-lg-12">
                 <div className="first-bar progress-skill-bar">
                   <h4>Website Analysis</h4>
-                  <span>84%</span>
                   <div className="filled-bar"></div>
                   <div className="full-bar"></div>
                 </div>
@@ -44,7 +44,6 @@ function Services() {
               <div className="col-lg-12">
                 <div className="second-bar progress-skill-bar">
                   <h4>SEO Reports</h4>
-                  <span>88%</span>
                   <div className="filled-bar"></div>
                   <div className="full-bar"></div>
                 </div>
@@ -52,7 +51,6 @@ function Services() {
               <div className="col-lg-12">
                 <div className="third-bar progress-skill-bar">
                   <h4>Page Optimizations</h4>
-                  <span>94%</span>
                   <div className="filled-bar"></div>
                   <div className="full-bar"></div>
                 </div>

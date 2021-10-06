@@ -1,47 +1,27 @@
 [
   {
     "id": 1,
-    "planClass": "plan",
-    "name": "Starter",
-    "price": 100,
-    "discount": 10,
-    "billingCycle": "month",
-    "description": "Easy start on the cloud",
-    "body": {
-      "item1": "Unlimited Websites",
-      "item2": "Unlimited Bandwidth",
-      "item3": "100GB SSD storage",
-      "itmem4": "3GB RAM"
-    }
+    "url": "#",
+    "imageURL": "assets/images/portfolio-image.png",
+    "name": "Report Generation",
+    "description": "Easy start on the report generation"
   },
   {
     "id": 2,
-    "cardClass": "card card--primary",
-    "name": "Entry",
-    "price": 300,
-    "discount": 14,
-    "billingCycle": "3 months",
-    "description": "Easy start on the cloud",
-    "body": {
-      "item1": "Unlimited Websites",
-      "item2": "Unlimited Bandwidth",
-      "item3": "100GB SSD storage",
-      "itmem4": "16GB RAM"
-    }
+    "url": "#",
+    "name": "Report Generation",
+    "description": "Easy start on the report generation"
   },
   {
     "id": 3,
-    "cardClass": "card card--secondary",
-    "price": 400,
-    "name": "Premium",
-    "discount": 20,
-    "billingCycle": "Year",
-    "description": "Easy start on the cloud",
-    "body": {
-      "item1": "Unlimited Websites",
-      "item2": "Unlimited Bandwidth",
-      "item3": "1TB SSD storage",
-      "itmem4": "32GB RAM"
-    }
+    "url": "#",
+    "name": "Report Generation",
+    "description": "Easy start on the report generation"
+  },
+  {
+    "id": 4,
+    "url": "#",
+    "name": "Report Generation",
+    "description": "Easy start on the report generation"
   }
 ]

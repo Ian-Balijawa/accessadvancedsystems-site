@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Card from '../Card/Card';
 
-function PortFolio() {
+function Showcase() {
   return (
     <div id="portfolio" className="our-portfolio section">
       <div className="container">
@@ -13,8 +14,8 @@ function PortFolio() {
               data-wow-delay="0.2s"
             >
               <h2>
-                See What Our Agency <em>Offers</em> &amp; What We{' '}
-                <span>Provide</span>
+                See What Our Business <em>Offers</em> &amp; What We{' '}
+                <span>Build</span>
               </h2>
             </div>
           </div>
@@ -28,11 +29,11 @@ function PortFolio() {
                 data-wow-delay="0.3s"
               >
                 <div className="hidden-content">
-                  <h4>SEO Analysis</h4>
-                  <p>Lorem ipsum dolor sit ameti ctetur aoi adipiscing eto.</p>
+                  <h4>Health care systems</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
                 </div>
                 <div className="showed-content">
-                  <img src="assets/images/portfolio-image.png" alt="" />
+                  <img src={'assets/images/portfolio-image.png'} alt="photo" />
                 </div>
               </div>
             </Link>
@@ -45,7 +46,7 @@ function PortFolio() {
                 data-wow-delay="0.4s"
               >
                 <div className="hidden-content">
-                  <h4>Website Reporting</h4>
+                  <h4>School Mangement systems</h4>
                   <p>Lorem ipsum dolor sit ameti ctetur aoi adipiscing eto.</p>
                 </div>
                 <div className="showed-content">
@@ -62,7 +63,7 @@ function PortFolio() {
                 data-wow-delay="0.5s"
               >
                 <div className="hidden-content">
-                  <h4>Performance Tests</h4>
+                  <h4>Supermarket systems</h4>
                   <p>Lorem ipsum dolor sit ameti ctetur aoi adipiscing eto.</p>
                 </div>
                 <div className="showed-content">
@@ -79,7 +80,7 @@ function PortFolio() {
                 data-wow-delay="0.6s"
               >
                 <div className="hidden-content">
-                  <h4>Data Analysis</h4>
+                  <h4>Hardware systems</h4>
                   <p>Lorem ipsum dolor sit ameti ctetur aoi adipiscing eto.</p>
                 </div>
                 <div className="showed-content">
@@ -94,4 +95,4 @@ function PortFolio() {
   );
 }
 
-export default PortFolio;
+export default Showcase;

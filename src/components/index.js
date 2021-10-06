@@ -4,7 +4,7 @@ export { default as Aboutus } from './Aboutus/';
 export { default as Hero } from './Hero/';
 export { default as Services } from './Services/';
 export { default as Blog } from './Blog/';
-export { default as PortFolio } from './PortFolio';
+export { default as Showcase } from './PortFolio';
 export { default as ContactUs } from './ContactUs';
 export { default as ContactForm } from './ContactForm';
 export { default as Footer } from './Footer';

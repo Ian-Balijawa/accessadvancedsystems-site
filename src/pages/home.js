@@ -6,9 +6,9 @@ import {
   Header,
   Services,
   Blog,
-  PortFolio,
   Footer,
   ContactUs,
+  Showcase,
 } from '../components';
 
 function Home() {
@@ -19,7 +19,7 @@ function Home() {
       <Hero />
       <Aboutus />
       <Services />
-      <PortFolio />
+      <Showcase />
       <Blog />
       <ContactUs />
       <Footer />

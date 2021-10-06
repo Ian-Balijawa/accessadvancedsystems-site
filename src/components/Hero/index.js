@@ -30,7 +30,7 @@ function Hero() {
                     Sint placeat odit consectetur ipsa porro doloremque.{' '}
                     <Link
                       rel="nofollow"
-                      to="https://templatemo.com/page/1"
+                      to="https://accessadvancedsystems.vercel.app"
                       target="_parent"
                     >
                       Access
@@ -46,7 +46,7 @@ function Hero() {
                   data-wow-delay="0.5s"
                 >
                   <img
-                    src="assets/images/banner-right-image.png"
+                    // src="assets/images/banner-right-image.png"
                     alt="team meeting"
                   />
                 </div>
