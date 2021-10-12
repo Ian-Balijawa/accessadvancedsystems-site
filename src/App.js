@@ -1,7 +1,7 @@
-import "tailwindcss/dist/base.css";
-import "styles/globalStyles.css";
-import React from "react";
-import { css } from "styled-components/macro"; //eslint-disable-line
+import 'tailwindcss/dist/base.css';
+import 'styles/globalStyles.css';
+import React from 'react';
+import { css } from 'styled-components/macro'; //eslint-disable-line
 
 /*
  * This is the entry point component of this project. You can change the below exported default App component to any of
@@ -101,16 +101,15 @@ import { css } from "styled-components/macro"; //eslint-disable-line
 // import TermsOfServicePage from "pages/TermsOfService.js";
 // import PrivacyPolicyPage from "pages/PrivacyPolicy.js";
 
-import ComponentRenderer from "ComponentRenderer.js";
-import MainLandingPage from "MainLandingPage.js";
-import ThankYouPage from "ThankYouPage.js";
+import ComponentRenderer from 'ComponentRenderer.js';
+import MainLandingPage from 'MainLandingPage.js';
+import ThankYouPage from 'ThankYouPage.js';
 
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 export default function App() {
   // If you want to disable the animation just use the disabled `prop` like below on your page's component
   // return <AnimationRevealPage disabled>xxxxxxxxxx</AnimationRevealPage>;
-
 
   return (
     <Router>
